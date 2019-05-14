@@ -47,7 +47,7 @@
 package pcre
 
 /*
-#cgo LDFLAGS: -Wl,-Bstatic -lpcre
+#cgo LDFLAGS: -lpcre
 #cgo CFLAGS: -I/opt/local/include
 #define PCRE_STATIC
 #include <pcre.h>
